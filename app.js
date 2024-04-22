@@ -4,7 +4,7 @@ const app = express();
 const userRoute = require("./routes/auth");
 const postRoute = require("./routes/posts");
 const CONNECTDB = require("./config/config");
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5002;
 
 // Middlewares
 app.use(express.json());
